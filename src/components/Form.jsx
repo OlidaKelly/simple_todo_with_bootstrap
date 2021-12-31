@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Item } from "./Item";
 
 export const Form = () => {
   return (
@@ -11,7 +12,10 @@ export const Form = () => {
 
       <h2>Liste des choses à faire : </h2>
       <ul className="list-group">
-        
+        <Item/>
+        <Item/>
+        <Item/>
+        <Item/>        
       </ul>
       
     </div>
