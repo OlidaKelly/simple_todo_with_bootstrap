@@ -5,7 +5,6 @@ export const Item = ({text, deleteFunc, id }) => {
         <div className="p-3">{text}</div>
         <button className="btn btn-danger p-2 h-50" onClick={() => deleteFunc(id)}>Supprimer</button>
       </li>
-      
     </div>
   )
 }

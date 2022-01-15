@@ -24,7 +24,7 @@ export const Form = () => {
    setStateInput(e);
   }
 
-  //Add Todo function
+  //Add to do function
   const addTodo = (e) => {
     e.preventDefault();
     const newArrTodo = [...dataTodo];
@@ -59,8 +59,7 @@ export const Form = () => {
             id={todo.id}
             deleteFunc={deleteTodo}
             />
-          )
-          
+          ) 
         })}
       </ul>
     </div>
